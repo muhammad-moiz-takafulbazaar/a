@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Convert between minutes, seconds, and hours with this easy-to-use time converter tool.">
+    <meta name="keywords" content="time converter, minutes to seconds, seconds to minutes, hours to minutes, minutes to hours, seconds to hours">
+    <meta name="author" content="MAKSTYLE119" />
+    <meta name="copyright" content="MAKSTYLE119" />
+    <meta name="page-topic" content="Time Converter - Convert Minutes, Seconds, and Hours" />
+    <meta name="page-type" content="App" />
+    <meta name="audience" content="Everyone" />
+    <meta
+      name="og:title"
+      property="og:title"
+      content="Word Count App || MAK Development House || MAKSTYLE119"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Time Converter - Convert Minutes, Seconds, and Hours</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="getYearAndUrl()">
+    <header>
+      <a href="#" id="currentPage">
+        <h1>Time Converter</h1>
+      </a>
+    </header>
+    <main>
+      <p>Convert between minutes, seconds, and hours with this easy-to-use time converter tool.</p>
+      <div class="input-container">
+        <input id="input" type="number" placeholder="Enter a value">
+        <select id="from-select">
+          <option value="seconds">Second(s)</option>
+          <option value="minutes">Minute(s)</option>
+          <option value="hours">Hour(s)</option>
+          <option value="days">Day(s)</option>
+          <option value="weeks">Week(s)</option>
+        </select>
+      </div>
+      <div class="output-container">
+        <span id="output">-</span>
+        <select id="to-select">
+          <option value="seconds">Second(s)</option>
+          <option value="minutes">Minute(s)</option>
+          <option value="hours">Hour(s)</option>
+          <option value="days">Day(s)</option>
+          <option value="weeks">Week(s)</option>
+        </select>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Time Converter &copy; <span id="getYear"></span>. DEVELOP & MAINTAIN BY
+        MAK DEVELOPMENT HOUSE.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
