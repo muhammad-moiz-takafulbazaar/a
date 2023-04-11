@@ -21,21 +21,26 @@ Usage
 
 The following conversion factors are used by the app:
 
-    minutes-seconds: 60
-    seconds-minutes: 1/60
-    minutes-hours: 1/60
-    hours-minutes: 60
-    hours-seconds: 3600
-    seconds-hours: 1/3600
-    days-hours: 24
-    hours-days: 1/24
-    days-minutes: 1440
-    minutes-days: 1/1440
-    days-seconds: 86400
-    seconds-days: 1/86400
-    weeks-days: 7
-    days-weeks: 1/7
-
+    seconds-minutes: 1 / 60,
+    seconds-hours: 1 / 3600,
+    seconds-days: 1 / (24 * 60 * 60),
+    seconds-weeks: 1 / (7 * 24 * 60 * 60),
+    minutes-seconds: 60,
+    minutes-hours: 1 / 60,
+    minutes-days: 1 / (24 * 60),
+    minutes-weeks: 1 / (7 * 24 * 60),
+    hours-seconds: 3660,
+    hours-minutes: 60,
+    hours-days: 1 / 24,
+    hours-weeks: 1 / (7 * 24),
+    days-seconds: 24 * 60 * 60,
+    days-minutes: 24 * 60,
+    days-hours: 24,
+    days-weeks: 1 / 7,
+    weeks-seconds: 7 * 24 * 60 * 60,
+    weeks-minutes: 7 * 24 * 60,
+    weeks-hours: 7 * 24,
+    weeks-days: 7,
 
 ## **Contributing**
 
@@ -43,4 +48,4 @@ If you have any suggestions or feedback for the Time Converter App, please feel 
 
 ## **License**
 
-The Time Converter App is licensed under the MIT license. See LICENSE for more information.
+The **Time Converter App** is licensed under the **MIT license**. See LICENSE for more information.
